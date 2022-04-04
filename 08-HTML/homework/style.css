@@ -5,46 +5,48 @@ box-sizing: border-box;
 }
 
 body {
-	//margin:auto;
-	margin-bottom:50px;
+	margin-bottom: 20px;
+	background-image: url("https://img.remediosdigitales.com/2ac15f/grass-1331703_640/450_1000.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-h1, h3, h4{
-
-	//margin:auto;
-	
-}
-
-img { width:300px; }
+img { width: 400px;}
 
 #thirdDiv {
-	
-	height:600px;
-	width:500px;
-	background-color:cyan;
-	padding:50px;
-	border-style:solid;
-	border-color:black;
-	border-width:2px;
-
+	height: 600px;
+	width: 500px;
+	background-color: cyan;
+	padding: 50px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	align-items: center;
+	justify-content: center;
 }
 
 div {
-	width:500px;
-	margin:auto;
-	padding:10px;
-	text-align:center;
+	display: flex;
+	width: 500px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
 }
 
-.divClass{
-	//justify-content:center;
-}
-
-#spanId{
+#spanId { 
 	font-size:18px;
 	margin:50px;
 }
 
 .divClass h1 {
-	color:olive;
+	color: salmon;
+}
+
+.divClass{
+	flex-direction: column;
+}
+
+a {
+	color: white;
 }
